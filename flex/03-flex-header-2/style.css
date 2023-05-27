@@ -6,12 +6,18 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  
+  
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  padding: 0 10px;
+  flex-wrap: wrap;
+  
 }
 
 .profile-image {
@@ -27,6 +33,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  mar
 }
 
 button {
@@ -45,4 +52,20 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 10px;
+  margin-left: -30px;
+  flex: 1 0 auto;
 }
+
+div > .left-flex {
+  display: flex;
+  align-self: center;
+  gap: 10px;
+  align-items: center;
+  
+  
+}
+
+
+
